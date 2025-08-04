@@ -23,7 +23,13 @@
 | **Rule ID** | 31168 |
 | **Rule Description** | Shellshock attack detected |
 | **Rule Level** | 15 (Critical) |
-| **MITRE ATT&CK** | T1068 (Privilege Escalation), T1190 (Initial Access) |
+
+## 🎯 MITRE ATT&CK Mapping
+
+- **Tactic**: Initial Access
+  - **Technique**: [T1190 – Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
+- **Tactic**: Privilege Escalation
+  - **Technique**: [T1068 – Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068/)
 
 ###  Detection Screenshot:
 ![Shellshock Detected](./screenshots/shellshock-attack-detected.png)
