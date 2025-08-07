@@ -94,6 +94,11 @@ These indicate directory enumeration and probing for admin/config paths — a co
   - HTTP 501: Not Implemented
 
 ---
+## 📋 Incident Report for Executives
+
+This lab also simulates a real-world SOC workflow by preparing a formal **incident report** targeting non-technical stakeholders and higher-ups. The report outlines the attack scenario, detection, and risk context from a business perspective.
+
+📎 [Download Full Executive Incident Report (PDF)](incident_report.pdf)
 
 ##  Conclusion
 
@@ -101,12 +106,6 @@ This task demonstrates how Wazuh effectively detects web reconnaissance activity
 
 ---
 
-## Files & Resources
 
-- `report/web_recon_task3_report.pdf` – Full LaTeX report
-- `screenshots/` – Alert and MITRE UI captures 
-- `raw-logs/apache2_access_sample.log` – Real request data
-
----
 
 > *Documented as part of my  SIEM Lab Challenge using Wazuh, Apache, and Nmap.*
