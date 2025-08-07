@@ -28,7 +28,6 @@ This task simulates a **web reconnaissance** scenario using the **Nmap Scripting
 
 Wazuh correctly correlated the repeated access to non-existent URLs and methods (GET `/HNAP1`, PROPFIND `/`, POST `/sdk`, etc.) as evidence of **automated scanning activity**.
 
-![MITRE Mapping Screenshot](screenshots/mitre_mapping_ui.png)
 
 ---
 
@@ -98,7 +97,7 @@ These indicate directory enumeration and probing for admin/config paths — a co
 
 This lab also simulates a real-world SOC workflow by preparing a formal **incident report** targeting non-technical stakeholders and higher-ups. The report outlines the attack scenario, detection, and risk context from a business perspective.
 
-📎 [Download Full Executive Incident Report (PDF)](incident_report.pdf)
+📎 [Download Full Executive Incident Report (PDF)](incident_report_task3.pdf)
 
 ##  Conclusion
 
